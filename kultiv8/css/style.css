@@ -1,0 +1,85 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,400&family=Noto+Serif+HK&display=swap');
+
+body p{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+body h1, h2, h3{
+    font-family: 'Noto Serif HK', serif;
+
+}
+
+.navigation{
+    background-color: rgb(51,89,118);
+}
+
+.navigation a{
+    color: white;
+}
+
+/* Home */
+.home-section h2{
+    font-family: 'Noto Serif HK', serif;
+}
+
+.home-section p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+
+.home img{
+    height: 27rem;
+    width: 20rem;
+}
+
+/* About */
+.about-section{
+    background-color: rgb(51,89,118);
+    color: white;
+}
+
+.about-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Services */
+.services-section{
+    background-color: rgb(51,89,118);
+    font-style: bold;
+}
+.services-section h5{
+    font-family: 'Noto Serif HK', serif;
+    font-weight: bold;
+}
+.services-section h1{
+    color: white;
+}
+
+/*Laptops*/
+@media screen and (min-width: 701px) {
+    
+}
+
+/*Mobile Devicea*/
+@media screen and (max-width:576px) {
+    .home{
+        padding-left: 30px;
+    }
+
+    .home img{
+        height: 15rem;
+        width: 12rem;
+        margin-bottom: 30px;
+    }
+
+    .about-section p{
+        font-size: 15px;
+        word-spacing: 1px;
+    }
+    
+
+}
+
