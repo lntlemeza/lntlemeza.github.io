@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,400&family=Noto+Serif+HK&family=Rokkitt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/services-background.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.card-steps{
+    background-color: rgb(51,89,118);
+    color: white;
+    padding: 15px;
+    transition: 1s;
+}
+
+.card-steps:hover{
+    transform: scale(1.1);
+}
+
+.card-steps .card-title{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.card-steps .card-text{
+    letter-spacing: 2px;
+}
+
+
+h5{
+    font-family: 'Rokkitt', serif;
+}
+
+.price{
+    text-decoration: underline;
+}
+
+.how-it-works{
+    margin-bottom: 80px;
+
+}
+
+
+.package{
+    transition: 1s;
+}
+
+.package:hover{
+    transform: scale(1.05);
+}
+
+
+

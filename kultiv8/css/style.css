@@ -2,6 +2,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,400&family=Noto+Serif+HK&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body h1, h2, h3{
     font-family: 'Noto Serif HK', serif;
 
@@ -15,8 +21,13 @@ body h1, h2, h3{
     color: white;
 }
 
-.navbar-nav > .active > a {
-    color: red;
+.navigation ul .nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.logo{
+    text-decoration: none;
 }
 
 /* Home */
@@ -106,7 +117,9 @@ body h1, h2, h3{
 }
 
 /* Testimonials */
-
+.navbar-brand:hover{
+    color: white;
+}
 
 .carousel-indicators {
     bottom: -50px;
@@ -120,9 +133,58 @@ body h1, h2, h3{
 .footer-section a{
    color: white;
 }
+
+.main-image{
+    animation: slidein ease forwards 2s;
+}
+
+.quote{
+    animation: slideup ease forwards 2s;
+}
+
+.container{
+    animation: opacity ease forwards 2s;
+}
+
+/* Animations */
+@keyframes opacity {
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    from{
+        transform: translateX(-50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(50px);
+
+    }
+}
+
+@keyframes slideup {
+    from{
+        opacity: 0.2;
+        line-height: 50px;
+    }
+
+    to{
+        line-height: 30px;
+    }
+}
+
+
 /*Laptops*/
 @media screen and (min-width: 701px) {
-    
+    .logo{
+        font-size: 25px;
+    }
 }
 
 /*Mobile Devicea*/
