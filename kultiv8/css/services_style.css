@@ -11,13 +11,20 @@ body{
     background-size: cover;
 }
 
+.services h2{
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
 .how-it-works{
     margin-bottom: 80px;
 }
 
-.how-it-works h3{
+.how-it-works h3, .services h2{
     background-color: white;
 }
+
+
 .card-steps{
     background-color: rgb(51,89,118);
     color: white;
@@ -58,10 +65,25 @@ h5{
     transform: scale(1.05);
 }
 
+/*Laptops*/
+@media screen and (min-width: 770px) {
+    body{
+        background-image: none;
+    }
+    .services h2{
+        width: 50%;
+    }
+}
+
 /*Mobile Devicea*/
 @media screen and (max-width:576px) {
     body{
         background-image: none;
+    }
+
+    .services h2{
+        line-height: 32px;
+
     }
 
 }

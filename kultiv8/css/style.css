@@ -193,6 +193,7 @@ body h1, h2, h3{
     }
 }
 
+/* Tablts */
 @media screen and (max-width:768px) {
     
     .footer-section h2{
