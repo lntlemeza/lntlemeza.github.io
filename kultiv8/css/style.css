@@ -181,7 +181,7 @@ body h1, h2, h3{
 /*Laptops*/
 @media screen and (min-width: 701px) {
     .logo{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -190,9 +190,13 @@ body h1, h2, h3{
     .home{
         padding-left: 30px;
     }
+
+    .logo{
+        font-size: 25px;
+    }
 	
     .quote{
-	line-heigt: 20px;
+	    line-height: 20px;
      }
     .home img{
         height: 15rem;
