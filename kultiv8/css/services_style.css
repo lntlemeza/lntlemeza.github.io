@@ -19,7 +19,7 @@ body{
 }
 
 .card-steps:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .card-steps .card-title{
@@ -42,7 +42,6 @@ h5{
 
 .how-it-works{
     margin-bottom: 80px;
-
 }
 
 
