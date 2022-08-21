@@ -109,6 +109,10 @@ body h1, h2, h3{
     top: 0;
 }
 
+.back a{
+    text-decoration: none;
+}
+
 .btn-flip{
     border-color: rgb(51,89,118);
     background-color: transparent;

@@ -11,6 +11,13 @@ body{
     background-size: cover;
 }
 
+.how-it-works{
+    margin-bottom: 80px;
+}
+
+.how-it-works h3{
+    background-color: white;
+}
 .card-steps{
     background-color: rgb(51,89,118);
     color: white;
@@ -40,9 +47,7 @@ h5{
     text-decoration: underline;
 }
 
-.how-it-works{
-    margin-bottom: 80px;
-}
+
 
 
 .package{
@@ -53,5 +58,11 @@ h5{
     transform: scale(1.05);
 }
 
+/*Mobile Devicea*/
+@media screen and (max-width:576px) {
+    body{
+        background-image: none;
+    }
 
+}
 
